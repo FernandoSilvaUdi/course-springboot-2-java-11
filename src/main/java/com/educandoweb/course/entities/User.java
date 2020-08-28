@@ -76,11 +76,11 @@ public class User implements Serializable {
 		this.phone = phone;
 	}
 
-	public String getPasswordString() {
+	public String getPassword() {
 		return password;
 	}
 
-	public void setPasswordString(String password) {
+	public void setPassword(String password) {
 		this.password = password;
 	}
 	
